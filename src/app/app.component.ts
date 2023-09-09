@@ -62,13 +62,8 @@ export class AppComponent implements OnInit {
         }
       );
     }
-
-    // public confirmDelete(){
-    //   if(this.deleteEmployee && this.onDeleteEmployee(this.deleteEmployee?.id)){
-    //     this.onDeleteEmployee(this.deleteEmployee.id);
-    //   }
-    // }
   
+    
     public onDeleteEmployee(employeeId: number): void {
       this.employeeService.deleteEmployee(employeeId).subscribe(
         (response: void) => {
