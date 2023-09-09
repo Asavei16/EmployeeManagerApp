@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "name": "Achim Ionut",
+        "email": "achim@gmail.com",
+        "jobTitle": "UX/UI",
+        "phone": "+40725376491",
+        "imageUrl": "https://bootdey.com/img/Content/avatar/avatar1.png",
+        "experience": "2 years",
+        "salary": "5000",
+        "contract": "full-time",
+        "employeeCode": "a1dce7e6-8024-45e8-918f-e23f1f478ecc"
+    },
+    {
+        "id": 2,
+        "name": "Balan Ciprian",
+        "email": "balan@gmail.com",
+        "jobTitle": "Java",
+        "phone": "+40789346740",
+        "imageUrl": "https://bootdey.com/img/Content/avatar/avatar2.png",
+        "experience": "6 years",
+        "salary": "10000",
+        "contract": "full-time",
+        "employeeCode": "0549a654-2986-48b1-bee7-d461194028c6"
+    },
+    {
+        "id": 3,
+        "name": "Cobzaru Andreea",
+        "email": "cobzaru@gmail.com",
+        "jobTitle": "SQL",
+        "phone": "+40789093467",
+        "imageUrl": "https://bootdey.com/img/Content/avatar/avatar3.png",
+        "experience": "0.5 years",
+        "salary": "2500",
+        "contract": "part-time",
+        "employeeCode": "7797585a-a159-448e-91e5-a6ff7453e391"
+    },
+    {
+        "id": 4,
+        "name": "Achiriloaei Alexandra",
+        "email": "achiriloaei@gmail.com",
+        "jobTitle": "QA Tester",
+        "phone": "+40712317893",
+        "imageUrl": "https://bootdey.com/img/Content/avatar/avatar2.png",
+        "experience": "1 years",
+        "salary": "3500",
+        "contract": "full-time",
+        "employeeCode": "8baf80e2-6221-4202-9749-e721de84a027"
+    },
+    {
+        "id": 5,
+        "name": "Glogovetan Moise",
+        "email": "glogovetan@gmail.com",
+        "jobTitle": "Python",
+        "phone": "+40739003049",
+        "imageUrl": "https://bootdey.com/img/Content/avatar/avatar5.png",
+        "experience": "4 years",
+        "salary": "7000",
+        "contract": "full-time",
+        "employeeCode": "eadf0ae2-eddb-4bef-89ed-4a14b97a452d"
+    },
+    {
+        "id": 6,
+        "name": "Popa Andreea",
+        "email": "popa@gmail.com",
+        "jobTitle": "Embedded",
+        "phone": "+40780804050",
+        "imageUrl": "https://bootdey.com/img/Content/avatar/avatar8.png",
+        "experience": "1 year",
+        "salary": "2500",
+        "contract": "part-time",
+        "employeeCode": "581c48f2-a53a-402e-8c11-ddc561e23f2c"
+    },
+    {
+        "id": 54,
+        "name": "John Smith",
+        "email": "smith@gmail.com",
+        "jobTitle": "Consultant",
+        "phone": "+40739020300",
+        "imageUrl": "https://bootdey.com/img/Content/avatar/avatar7.png",
+        "experience": "3 years",
+        "salary": "3500",
+        "contract": "part-time",
+        "employeeCode": "416532fe-85f8-4f89-bf2f-86b04d5ad991"
+    }
+]
