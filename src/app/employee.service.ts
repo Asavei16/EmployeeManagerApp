@@ -10,7 +10,7 @@ import { environment } from 'src/environments/environment';
 export class EmployeeService {
   private apiServerUrl = 'http://localhost:8080';
 
-
+  
   constructor(private httpClient: HttpClient) { }
 
   public getEmployees(): Observable<Employee[]> {

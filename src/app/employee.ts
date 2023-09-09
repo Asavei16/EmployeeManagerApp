@@ -8,5 +8,5 @@ export interface Employee{
     employeeCode: string;
     experience: string;
     salary: number;
-    contract: string;
+    contract: string;    
 }

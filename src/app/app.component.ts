@@ -23,7 +23,6 @@ export class AppComponent implements OnInit {
     public getEmployees(): void{
       this.employeeService.getEmployees().subscribe((response: Employee[]) => {
         this.employees = response;
-        console.log(this.employees);
         
       },
       (error: HttpErrorResponse) => {
@@ -40,7 +39,6 @@ export class AppComponent implements OnInit {
 
       this.employeeService.addEmployee(addForm.value).subscribe(
         (response: Employee) => {
-          console.log(response);
           this.getEmployees();
           addForm.reset();
         },
@@ -54,7 +52,6 @@ export class AppComponent implements OnInit {
     public onUpdateEmployee(employee: Employee): void {
       this.employeeService.updateEmployee(employee).subscribe(
         (response: Employee) => {
-          console.log(response);
           this.getEmployees();
         },
         (error: HttpErrorResponse) => {
@@ -67,7 +64,6 @@ export class AppComponent implements OnInit {
     public onDeleteEmployee(employeeId: number): void {
       this.employeeService.deleteEmployee(employeeId).subscribe(
         (response: void) => {
-          console.log(response);
           this.getEmployees();
         },
         (error: HttpErrorResponse) => {
@@ -77,7 +73,6 @@ export class AppComponent implements OnInit {
     }
   
     public searchEmployees(key: string): void {
-      console.log(key);
       const results: Employee[] = [];
       if(this.employees){
       for (const employee of this.employees) {
@@ -119,6 +114,5 @@ export class AppComponent implements OnInit {
       container?.appendChild(button);
       button.click();
     }
-  
-  
+    
 }
